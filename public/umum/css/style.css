@@ -1,0 +1,142 @@
+/*Font - Robo*o*/
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+/*Global Deklarasi*/
+hr{
+  width: 70%;
+  border-top: 1px solid #000;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+/*Halaman Awal*/
+#header-nav{
+  margin-top: 2%;
+}
+
+#header-nav .jumbotron{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+#header-nav .nav{
+  position: absolute;
+  top: 13%;
+  left: 17.3%;
+}
+
+#header-nav .nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+i.material-icons{
+  color: black;
+  font-size: 10em;
+
+}
+
+.panel{
+  background-color: rgba(249, 174, 167, 0.37);
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.panel h3{
+  color: black;
+
+}
+
+.panel a{
+  color: black;
+}
+
+.tombol i.material-icons{
+  font-size: 2em;
+}
+
+.btn-default{
+  background-color: #31708f;
+  color: black;
+}
+
+.btn-default:active{
+  background-color: #03a9f4;
+  color: black;
+  box-shadow: 0px 0px 0px white;
+}
+
+.btn-default:hover{
+  background-color: #03a9f4;
+  color: black;
+}
+
+.btn-default:focus{
+  background-color: #03a9f4;
+  color: black;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: black;
+    background-color: #03a9f4;
+    border-color: #8c8c8c;
+}
+
+.btn{
+  border: 0px solid transparent;
+  border-radius: 0px;
+  font-size: 19px;
+  padding: 6px 12px;
+  margin-top: 2.5%;
+}
+
+#footer-awal .jumbotron{
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  margin-top: 3%;
+  background-color: #fddefd;
+  border-top: 5px solid #007ac1;
+}
+
+#footer-awal .jumbotron p{
+  color: black;
+
+}
+
+.carousel{
+  margin-bottom: 5%;
+}
+
+.modal-header{
+  text-align: center;
+  background-color: #03a9f4;
+}
+
+.modal-body{
+  display: flex;
+}
+
+.icon-modal i.material-icons{
+  font-size: 150px;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 20%;
+}
+
+.carousel-control i.material-icons{
+  padding-top: 50%;
+}
